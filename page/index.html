@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Messi--personalWeb</title>
+		<link rel="icon" href="../image/titleIcon.png">
+		<script src="../vendors/vue.js" type="text/javascript" charset="utf-8"></script>
+		<style>
+			body,html{
+				width: 100%;
+				height: 100%;
+				margin: 0rem;
+				padding: 0rem;
+			}
+			/* pageall */
+			.pageAll{
+				width: 100%;
+				height: 100%;
+				margin: 0rem;
+				padding: 0rem;
+				position: absolute;
+				z-index: -1;
+			}
+			/* personalColor */
+			.personalColor{
+				width: 100%;
+				height: 100%;
+				margin: 0rem;
+				padding: 0rem;
+				background-image: url("../image/personalColorBg.jpg");
+				background-repeat:no-repeat ;
+				background-size:100% 100%;
+				/*background-attachment: fixed;*/
+				color: white;
+				font-size: 45px;
+			}
+			.personName{
+				font-family: showCard gothic;
+				font-weight: 900;
+				font-size: 85px;
+				text-align: center;
+				position: relative;
+				top: 100px;
+			}
+			.welcomeText{
+				position: relative;
+				top: 176px;
+				text-align: center;
+			}
+			/* personalWorks */
+			.personalWorks{
+				width: 100%;
+				height: 100%;
+				margin: 0rem;
+				padding: 0rem;
+				background-color: yellow;
+			}
+			/* personalEnerge */
+			.personalEnerge{
+				width: 100%;
+				height: 100%;
+				margin: 0rem;
+				padding: 0rem;
+				background-color: blue;
+			}
+			/* personalInformation */
+			.personalInformation{
+				width: 100%;
+				height: 100%;
+				margin: 0rem;
+				padding: 0rem;
+				background-color: rgba(222, 222, 218, 0.83);
+				position: fixed;
+				z-index: 50;
+				display: none;
+			}
+			.personalInformation_pageAll{
+				width: 50%;
+				height: 50%;
+				margin: 19% 25% 0 25%;
+				position: absolute;
+				padding: 0rem;
+				background-color: green;
+			}
+			/* pageInstruct */
+			.pageInstruct{
+				width: 2.875rem;
+				height: 25%;
+				margin: 25% 0 0 0;
+				padding: 0rem;
+				background-color: powderblue;
+				overflow: hidden;
+				position: fixed;
+				z-index: 100;
+				display: flow-root;
+				left: -2rem;
+				top: 0px;
+			}
+			.pageInstruct:hover{
+				left: 0;
+			}
+			.information{
+				background-color: beige;
+				width: 2.5rem;
+				height: 27%;
+				margin: 0.625rem 0.125rem;
+				padding: 0;
+			}
+			.toTop{
+				background-color: black;
+				width: 2.5rem;
+				height: 27%;
+				margin: 0.625rem 0.125rem;
+				padding: 0;
+			}
+			.contactMe{
+				background-color: khaki;
+				width: 2.5rem;
+				height: 27%;
+				margin: 0.625rem 0.125rem;
+				padding: 0;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<!-- pageall -->
+		<div class="pageAll">
+			<!-- personalColor -->
+			<section class="personalColor">
+				<div class="personName">
+					<span id="m">m</span>
+					<span id="e">e</span>
+					<span id="s">s</span>
+					<span id="si">s</span>
+					<span id="i">i</span>
+				</div>
+				<div class="welcomeText">
+					<p>欢迎走进我的世界</p>
+				</div>
+			</section>
+			<!-- personalWorks -->
+			<section class="personalWorks"></section>
+			<!-- personalEnerge -->
+			<section class="personalEnerge"></section>
+		</div>
+		<!-- personalInformation -->
+		<div class="personalInformation">
+			<div class="personalInformation_pageAll"></div>
+		</div>
+		<div class="pageInstruct">
+			<div class="information"></div>
+			<div class="toTop"></div>
+			<div class="contactMe"></div>
+		</div>
+	</body>
+</html>
